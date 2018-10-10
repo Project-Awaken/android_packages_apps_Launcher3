@@ -82,4 +82,8 @@
     <string name="allow_swipe_down_clearall_title">Swipe down to clear all recents</string>
     <string name="allow_swipe_down_clearall_desc">Enable to clear all recents in the overview screen by swiping down</string>
 
+    <!-- Hide labels -->
+    <string name="desktop_show_labels">Show icon labels on desktop</string>
+    <string name="drawer_show_labels">Show icon labels in drawer</string>
+
 </resources>
