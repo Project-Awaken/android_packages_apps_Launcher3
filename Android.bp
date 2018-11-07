@@ -227,7 +227,10 @@ android_app {
         "Home",
         "Launcher2",
     ],
-    required: ["privapp_whitelist_com.android.launcher3"],
+    required: [
+        "privapp_whitelist_com.android.launcher3",
+        "privapp_whitelist_awaken_launcher3.xml",
+    ],
 
     jacoco: {
         include_filter: ["com.android.launcher3.**"],
@@ -357,7 +360,7 @@ android_app {
         "Launcher3",
         "Launcher3QuickStep",
     ],
-    required: ["privapp_whitelist_com.android.launcher3"],
+    required: ["privapp_whitelist_com.android.launcher3 privapp_whitelist_awaken_launcher3.xml"],
 
     additional_manifests: [
         "AndroidManifest.xml",
@@ -392,7 +395,7 @@ android_app {
         "Launcher2",
         "Launcher3",
     ],
-    required: ["privapp_whitelist_com.android.launcher3"],
+    required: ["privapp_whitelist_com.android.launcher3 privapp_whitelist_awaken_launcher3.xml"],
 
     resource_dirs: ["quickstep/res"],
 
@@ -443,7 +446,7 @@ android_app {
         "Launcher3",
         "Launcher3QuickStep",
     ],
-    required: ["privapp_whitelist_com.android.launcher3"],
+    required: ["privapp_whitelist_com.android.launcher3 privapp_whitelist_awaken_launcher3.xml"],
 
     additional_manifests: [
         "go/AndroidManifest.xml",
@@ -458,3 +461,9 @@ android_app {
 
 }
 
+prebuilt_etc {
+    name: "privapp_whitelist_awaken_launcher3.xml",
+    src: "privapp_whitelist_awaken_launcher3.xml",
+    system_ext_specific: true,
+    sub_dir: "permissions",
+}
