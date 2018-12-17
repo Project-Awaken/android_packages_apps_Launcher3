@@ -20,4 +20,11 @@
         android:summary="@string/pref_show_google_now_summary"
         android:title="@string/title_show_google_app"/>
 
+    <SwitchPreference
+        android:key="pref_show_quickspace"
+        android:title="@string/show_quickspace_title"
+        android:summary="@string/show_quickspace_summary"
+        android:defaultValue="true"
+        android:persistent="true"/>
+
 </androidx.preference.PreferenceScreen>

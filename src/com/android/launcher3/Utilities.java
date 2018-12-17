@@ -130,6 +130,7 @@ public final class Utilities {
     public static final String KEY_ALL_APPS_BLUR = "pref_all_apps_scrim_blur";
     public static final String KEY_ALLOW_OVERVIEW_BLUR = "pref_allow_overview_blur";
     public static final String KEY_OVERVIEW_BLUR = "pref_overview_scrim_blur";
+    public static final String DESKTOP_SHOW_QUICKSPACE = "pref_show_quickspace";
 
     /**
      * Set on a motion event dispatched from the nav bar. See {@link MotionEvent#setEdgeFlags(int)}.
@@ -738,5 +739,10 @@ public final class Utilities {
     public static int getOverviewScrimBlur(Context context) {
         SharedPreferences prefs = getPrefs(context.getApplicationContext());
         return prefs.getInt(KEY_OVERVIEW_BLUR, 150);
+    }
+
+    public static boolean showQuickspace(Context context) {
+        SharedPreferences prefs = getPrefs(context.getApplicationContext());
+        return prefs.getBoolean(DESKTOP_SHOW_QUICKSPACE, true);
     }
 }

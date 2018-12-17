@@ -58,4 +58,8 @@
     <string name="msg_minus_one_on_right">When you swipe right from main Home screen</string>
     <string name="pref_show_google_now_summary" translatable="false">@string/msg_minus_one_on_left</string>
 
+    <!-- QuickSpace -->
+    <string name="show_quickspace_title">At A Glance</string>
+    <string name="show_quickspace_summary">Show at the top of your Home screen</string>
+    <string name="abbrev_wday_month_day_no_year" translatable="false">EEEEMMMd</string>
 </resources>
