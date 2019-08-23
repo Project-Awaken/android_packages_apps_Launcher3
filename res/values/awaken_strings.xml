@@ -74,6 +74,10 @@
     <string name="quickspace_now_playing_title">Show now playing</string>
     <string name="quickspace_now_playing_summary">Shows the song you\'re playing on At a Glance.</string>
 
+    <!-- Quickspace alternative view -->
+    <string name="quickspace_alternate_style_title">Use an alternative style</string>
+    <string name="quickspace_alternate_style_summary">Use a minimalistic style for At a Glance</string>
+
     <string name="state_loading">Applying\u2026</string>
 
     <!-- Gestures -->

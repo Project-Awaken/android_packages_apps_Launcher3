@@ -137,6 +137,7 @@ public final class Utilities {
     public static final String KEY_ALLOW_OVERVIEW_BLUR = "pref_allow_overview_blur";
     public static final String KEY_OVERVIEW_BLUR = "pref_overview_scrim_blur";
     public static final String DESKTOP_SHOW_QUICKSPACE = "pref_show_quickspace";
+    public static final String KEY_SHOW_ALT_QUICKSPACE = "pref_show_alt_quickspace";
 
     /**
      * Set on a motion event dispatched from the nav bar. See {@link MotionEvent#setEdgeFlags(int)}.
@@ -761,5 +762,9 @@ public final class Utilities {
     public static boolean isDoubleTapGestureEnabled(Context context) {
         SharedPreferences prefs = getPrefs(context.getApplicationContext());
         return prefs.getBoolean(KEY_DT_GESTURE, true);
+    }
+
+    public static boolean useAlternativeQuickspaceUI(Context context) {
+        return getPrefs(context).getBoolean(KEY_SHOW_ALT_QUICKSPACE, false);
     }
 }
