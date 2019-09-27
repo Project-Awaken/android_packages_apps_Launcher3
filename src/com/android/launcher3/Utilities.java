@@ -18,6 +18,9 @@ package com.android.launcher3;
 
 import static com.android.launcher3.model.data.ItemInfoWithIcon.FLAG_ICON_BADGED;
 
+import android.app.AlarmManager;
+import android.app.PendingIntent;
+import android.app.ProgressDialog;
 import android.animation.ValueAnimator;
 import android.annotation.TargetApi;
 import android.app.ActivityManager;
@@ -26,6 +29,7 @@ import android.app.WallpaperManager;
 import android.content.BroadcastReceiver;
 import android.content.ComponentName;
 import android.content.Context;
+import android.content.Intent;
 import android.content.SharedPreferences;
 import android.content.pm.LauncherActivityInfo;
 import android.content.pm.LauncherApps;
@@ -49,6 +53,7 @@ import android.os.DeadObjectException;
 import android.os.Handler;
 import android.os.Message;
 import android.os.PowerManager;
+import android.os.SystemClock;
 import android.os.TransactionTooLargeException;
 import android.provider.Settings;
 import android.text.Spannable;
@@ -82,6 +87,7 @@ import com.android.launcher3.util.IntArray;
 import com.android.launcher3.util.LooperExecutor;
 import com.android.launcher3.util.PackageManagerHelper;
 import com.android.launcher3.widget.PendingAddShortcutInfo;
+import com.android.launcher3.util.LooperExecutor;
 
 import java.lang.reflect.Method;
 import java.util.Arrays;
@@ -710,7 +716,7 @@ public final class Utilities {
     }
 
     public static void restart(final Context context) {
-        new LooperExecutor(MODEL_EXECUTOR.getLooper()).execute(() -> {
+        MODEL_EXECUTOR.execute(() -> {
             try {
                 Thread.sleep(WAIT_BEFORE_RESTART);
             } catch (Exception ignored) {

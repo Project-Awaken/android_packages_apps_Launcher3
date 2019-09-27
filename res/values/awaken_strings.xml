@@ -73,4 +73,6 @@
     <!-- Quickspace Now Playing -->
     <string name="quickspace_now_playing_title">Show now playing</string>
     <string name="quickspace_now_playing_summary">Shows the song you\'re playing on At a Glance.</string>
+
+    <string name="state_loading">Applying\u2026</string>
 </resources>
