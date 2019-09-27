@@ -75,4 +75,8 @@
     <string name="quickspace_now_playing_summary">Shows the song you\'re playing on At a Glance.</string>
 
     <string name="state_loading">Applying\u2026</string>
+
+    <!-- Gestures -->
+    <string name="pref_dt_gesture_title">Double tap gesture</string>
+    <string name="pref_dt_gesture_summary">Double tap on empty space for screen-off</string>
 </resources>
