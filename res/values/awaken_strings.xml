@@ -67,4 +67,7 @@
     <string name="label_lens">Google Lens</string>
     <string name="label_voice_search">Voice search</string>
 
+    <!-- Restart action -->
+    <string name="state_loading">Applying\u2026</string>
+
 </resources>
