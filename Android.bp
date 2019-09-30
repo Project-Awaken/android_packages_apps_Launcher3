@@ -27,6 +27,11 @@ filegroup {
 }
 
 filegroup {
+    name: "launcher-src_base",
+    srcs: [ "src_base/**/*.java", "src_base/**/*.kt" ],
+}
+
+filegroup {
     name: "launcher-quickstep-src",
     srcs: [ "quickstep/src/**/*.java", "quickstep/src/**/*.kt" ],
 }
@@ -320,6 +325,7 @@ android_app {
 
     srcs: [
         ":launcher-src",
+        ":launcher-src_base",
         ":launcher-go-src",
         ":launcher-src_ui_overrides",
     ],
