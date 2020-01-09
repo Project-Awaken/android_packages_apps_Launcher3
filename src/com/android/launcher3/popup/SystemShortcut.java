@@ -15,6 +15,7 @@ import android.content.pm.SuspendDialogInfo;
 import android.graphics.Rect;
 import android.os.RemoteException;
 import android.util.Log;
+import android.view.InflateException;
 import android.view.View;
 import android.view.accessibility.AccessibilityNodeInfo;
 import android.widget.ImageView;
@@ -35,6 +36,7 @@ import com.android.launcher3.util.PackageManagerHelper;
 import com.android.launcher3.util.PackageUserKey;
 import com.android.launcher3.views.ActivityContext;
 import com.android.launcher3.widget.WidgetsBottomSheet;
+import com.android.launcher3.customization.InfoBottomSheet;
 
 import java.util.List;
 
@@ -196,12 +198,24 @@ public abstract class SystemShortcut<T extends Context & ActivityContext> extend
             }
         }
 
+
         @Override
         public void onClick(View view) {
+            InfoBottomSheet cbs;
             dismissTaskMenuView(mTarget);
             Rect sourceBounds = Utilities.getViewBounds(view);
-            new PackageManagerHelper(mTarget).startDetailsActivityForInfo(
-                    mItemInfo, sourceBounds, ActivityOptions.makeBasic().toBundle());
+            try {
+                cbs = (InfoBottomSheet) mTarget.getLayoutInflater().inflate(
+                        R.layout.app_info_bottom_sheet,
+                        mTarget.getDragLayer(),
+                        false);
+                cbs.configureBottomSheet(sourceBounds, mTarget);
+                cbs.populateAndShow(mItemInfo);
+            } catch (InflateException e) {
+                new PackageManagerHelper(mTarget).startDetailsActivityForInfo(
+                        mItemInfo, sourceBounds, ActivityOptions.makeBasic().toBundle());
+            }
+
             mTarget.getStatsLogManager().logger().withItemInfo(mItemInfo)
                     .log(LAUNCHER_SYSTEM_SHORTCUT_APP_INFO_TAP);
         }
