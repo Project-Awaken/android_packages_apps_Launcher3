@@ -5,6 +5,7 @@ import android.content.Context;
 import android.content.pm.ApplicationInfo;
 import android.content.pm.PackageInfo;
 import android.content.pm.PackageManager;
+import android.net.Uri;
 import android.text.TextUtils;
 import android.text.format.DateUtils;
 
@@ -20,6 +21,7 @@ class MetadataExtractor {
     private final PackageManager mPm;
 
     private String mSourcePkg = "";
+
     private long mLastUpdate = 0;
     private String mVersionName = "Unknown";
     private long mVersionCode = 0;
@@ -70,4 +72,5 @@ class MetadataExtractor {
     long getVersionCode() {
         return mVersionCode;
     }
+
 }

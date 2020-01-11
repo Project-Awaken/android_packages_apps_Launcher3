@@ -19,6 +19,10 @@
     xmlns:launcher="http://schemas.android.com/apk/res-auto"
     xmlns:settings="http://schemas.android.com/apk/res/com.android.launcher3">
 
+    <Preference
+        android:key="pref_icon_pack"
+        android:title="@string/icon_pack_title" />
+
     <!--
     LAUNCHER_HOME_SCREEN_ROTATION_ENABLED(615)
     LAUNCHER_HOME_SCREEN_ROTATION_DISABLED(616)
