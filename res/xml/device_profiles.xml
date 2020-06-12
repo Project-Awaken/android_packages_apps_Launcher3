@@ -191,4 +191,24 @@
             launcher:canBeDefault="true" />
 
     </grid-option>
+
+    <grid-option
+        launcher:name="6_by_7"
+        launcher:numRows="7"
+        launcher:numColumns="6"
+        launcher:numFolderRows="5"
+        launcher:numFolderColumns="5"
+        launcher:numHotseatIcons="7"
+        launcher:defaultLayoutId="@xml/default_workspace_6x7" >
+
+        <display-option
+            launcher:name="Large Phone"
+            launcher:minWidthDps="406"
+            launcher:minHeightDps="694"
+            launcher:iconImageSize="48"
+            launcher:iconTextSize="13.0"
+            launcher:canBeDefault="true" />
+
+    </grid-option>
+
 </profiles>
