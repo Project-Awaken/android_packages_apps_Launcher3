@@ -34,4 +34,8 @@
     <string name="dev_options_title">Developer options</string>
     <string name="dev_options_desc">Enable some hidden features at your own risk</string>
 
+    <!-- Change scrim alpha in all apps -->
+    <string name="all_apps_background_opacity_title">All apps background transparency</string>
+    <string name="all_apps_background_opacity_summary">Make the background transparent or fully opaque</string>
+
 </resources>
