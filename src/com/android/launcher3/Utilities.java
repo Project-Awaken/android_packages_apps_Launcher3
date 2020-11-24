@@ -126,6 +126,10 @@ public final class Utilities {
     private static final long WAIT_BEFORE_RESTART = 250;
 
     public static final String KEY_ALL_APPS_BACKGROUND_ALPHA = "pref_all_apps_scrim_alpha";
+    public static final String KEY_ALLOW_ALL_APPS_BLUR = "pref_allow_all_apps_blur";
+    public static final String KEY_ALL_APPS_BLUR = "pref_all_apps_scrim_blur";
+    public static final String KEY_ALLOW_OVERVIEW_BLUR = "pref_allow_overview_blur";
+    public static final String KEY_OVERVIEW_BLUR = "pref_overview_scrim_blur";
 
     /**
      * Set on a motion event dispatched from the nav bar. See {@link MotionEvent#setEdgeFlags(int)}.
@@ -715,4 +719,24 @@ public final class Utilities {
         return prefs.getInt(KEY_ALL_APPS_BACKGROUND_ALPHA, 100);
     }
 
+
+    public static boolean isBlurOnAllAppsEnabled(Context context) {
+        SharedPreferences prefs = getPrefs(context.getApplicationContext());
+        return prefs.getBoolean(KEY_ALLOW_ALL_APPS_BLUR, false);
+    }
+
+    public static int getAllAppsScrimBlur(Context context) {
+        SharedPreferences prefs = getPrefs(context.getApplicationContext());
+        return prefs.getInt(KEY_ALL_APPS_BLUR, 75);
+    }
+
+    public static boolean isBlurOnOverviewEnabled(Context context) {
+        SharedPreferences prefs = getPrefs(context.getApplicationContext());
+        return prefs.getBoolean(KEY_ALLOW_OVERVIEW_BLUR, false);
+    }
+
+    public static int getOverviewScrimBlur(Context context) {
+        SharedPreferences prefs = getPrefs(context.getApplicationContext());
+        return prefs.getInt(KEY_OVERVIEW_BLUR, 150);
+    }
 }

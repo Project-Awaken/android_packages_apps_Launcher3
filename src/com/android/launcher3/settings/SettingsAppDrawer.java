@@ -39,6 +39,8 @@ import androidx.preference.PreferenceGroup.PreferencePositionCallback;
 import androidx.preference.PreferenceScreen;
 import androidx.recyclerview.widget.RecyclerView;
 
+import com.android.internal.util.awaken.Utils;
+
 import com.android.launcher3.LauncherAppState;
 import com.android.launcher3.LauncherFiles;
 import com.android.launcher3.R;
@@ -180,6 +182,9 @@ public class SettingsAppDrawer extends FragmentActivity
                 case SUGGESTIONS_KEY:
                     // Show if Device Personalization Services is present.
                     return isDPSEnabled(getContext());
+                case Utilities.KEY_ALLOW_ALL_APPS_BLUR:
+                case Utilities.KEY_ALL_APPS_BLUR:
+                    return Utils.supportsBlur();
             }
             return true;
         }

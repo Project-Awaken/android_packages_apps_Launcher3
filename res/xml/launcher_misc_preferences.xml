@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.preference.PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+<androidx.preference.PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:settings="http://schemas.android.com/apk/res/com.android.launcher3">
 
     <SwitchPreference
         android:key="pref_allowRotation"
@@ -7,6 +8,24 @@
         android:summary="@string/allow_rotation_desc"
         android:defaultValue="@bool/allow_rotation"
         android:persistent="true" />
+
+    <SwitchPreference
+        android:key="pref_allow_overview_blur"
+        android:title="@string/enable_blur_title"
+        android:summary="@string/enable_blur_summary"
+        android:defaultValue="false"
+        android:persistent="true" />
+
+    <com.android.launcher3.settings.preferences.CustomSeekBarPreference
+        android:key="pref_overview_scrim_blur"
+        android:title="@string/overview_blur_radius_title"
+        android:summary="@string/overview_blur_radius_summary"
+        android:dependency="pref_allow_overview_blur"
+        android:persistent="true"
+        android:max="175"
+        android:min="30"
+        settings:units="px"
+        android:defaultValue="150" />
 
     <androidx.preference.PreferenceScreen
         android:key="pref_developer_options"

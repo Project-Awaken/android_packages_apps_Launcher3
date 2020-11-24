@@ -36,6 +36,8 @@ import androidx.preference.PreferenceGroup.PreferencePositionCallback;
 import androidx.preference.PreferenceScreen;
 import androidx.recyclerview.widget.RecyclerView;
 
+import com.android.internal.util.awaken.Utils;
+
 import com.android.launcher3.LauncherAppState;
 import com.android.launcher3.LauncherFiles;
 import com.android.launcher3.R;
@@ -181,6 +183,11 @@ public class SettingsMisc extends FragmentActivity
                     // Show if plugins are enabled or flag UI is enabled.
                     return FeatureFlags.showFlagTogglerUi(getContext()) ||
                             PluginManagerWrapper.hasPlugins(getContext());
+
+                case Utilities.KEY_ALLOW_OVERVIEW_BLUR:
+                case Utilities.KEY_OVERVIEW_BLUR:
+                    return Utils.supportsBlur();
+
             }
             return true;
         }
