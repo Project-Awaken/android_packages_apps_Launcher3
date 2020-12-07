@@ -224,7 +224,7 @@ public class QsbContainerView extends FrameLayout {
             Bundle opts = createBindOptions();
             // round quick search bar
             opts.putString("attached-launcher-identifier",
-                    getActivity().getPackageName());
+                    "com.awaken.launcher.CustomLauncher");
             opts.putString("requested-widget-style", "cqsb");
 
             Context context = getContext();
