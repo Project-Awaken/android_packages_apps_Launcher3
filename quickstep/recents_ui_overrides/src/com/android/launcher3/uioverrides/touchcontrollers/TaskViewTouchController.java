@@ -226,6 +226,7 @@ public abstract class TaskViewTouchController<T extends BaseDraggingActivity>
 
             mEndDisplacement = -secondaryTaskDimension;
         } else if (goingDown && getSwipeForClearAllState()) {
+            currentInterpolator = Interpolators.LINEAR;
             mPendingAnimation = mRecentsView.createAllTasksDismissAnimation(maxDuration);
 
             mEndDisplacement = -mTaskBeingDragged.getHeight();
