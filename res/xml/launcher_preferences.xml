@@ -63,6 +63,15 @@
         android:summary="@string/pref_show_google_now_summary"
         android:title="@string/title_show_google_app"/>
 
+    <DropDownPreference
+        android:key="pref_icon_size"
+        android:title="@string/icon_size_title"
+        android:summary="%s"
+        android:entries="@array/icon_size_names"
+        android:entryValues="@array/icon_size_values"
+        android:defaultValue="average"
+        android:persistent="true" />
+
     <androidx.preference.PreferenceScreen
         android:key="pref_suggestions"
         android:persistent="false"
