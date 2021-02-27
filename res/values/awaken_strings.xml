@@ -72,4 +72,9 @@
     <!-- Show top shadow -->
     <string name="show_top_shadow">Show top shadow</string>
 
+    <!-- Icon size -->
+    <string name="icon_size_title">Icon size</string>
+
+    <!-- Font size -->
+    <string name="font_size_title">Font size</string>
 </resources>
