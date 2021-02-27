@@ -72,4 +72,9 @@
     <!-- Restart action -->
     <string name="state_loading">Applying\u2026</string>
 
+    <!-- Icon size -->
+    <string name="icon_size_title">Icon size</string>
+
+    <!-- Font size -->
+    <string name="font_size_title">Font size</string>
 </resources>
