@@ -51,7 +51,7 @@
     <string name="suggestion_pref_screen_desc">For All Apps &amp; Home screen suggestions</string>
 
     <!-- Settings Categories -->
-    <string name="category_icon">Icons</string>
+    <string name="category_icon">Icons &amp; Sizes</string>
     <string name="category_misc">Misc</string>
     <string name="category_google">Google</string>
 
@@ -77,4 +77,7 @@
 
     <!-- Font size -->
     <string name="font_size_title">Font size</string>
+
+    <!-- App label - max lines -->
+    <string name="icon_max_lines_title">Max lines for app label</string>
 </resources>
