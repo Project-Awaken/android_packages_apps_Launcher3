@@ -449,4 +449,7 @@
     <!--  Folder spaces  -->
     <dimen name="folder_top_padding_default">24dp</dimen>
     <dimen name="folder_footer_horiz_padding">20dp</dimen>
+
+    <!-- Dark theme icon's -->
+    <dimen name="theme_icon_size">24dp</dimen>
 </resources>
