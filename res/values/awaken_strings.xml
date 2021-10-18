@@ -82,4 +82,7 @@
 
     <!-- App label - max lines -->
     <string name="icon_max_lines_title">Max lines for app label</string>
+
+    <!-- Recents -->
+    <string name="action_lens">Lens</string>
 </resources>
