@@ -166,7 +166,8 @@ android_library {
         "com.google.android.material_material",
         "iconloader_base",
         "view_capture",
-        "libGoogleFeed"
+        "libGoogleFeed",
+        "SettingsLib"
     ],
     manifest: "AndroidManifest-common.xml",
     sdk_version: "current",
