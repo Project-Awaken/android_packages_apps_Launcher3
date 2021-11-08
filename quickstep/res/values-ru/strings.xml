@@ -21,6 +21,8 @@
     xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="recent_task_option_pin" msgid="7929860679018978258">"Закрепить"</string>
     <string name="recent_task_option_freeform" msgid="48863056265284071">"Произвольная форма"</string>
+    <string name="recent_task_option_kill_app">Закрыть</string>
+    <string name="recents_app_killed">Приложение закрыто</string>
     <string name="recents_empty_message" msgid="7040467240571714191">"Здесь пока ничего нет."</string>
     <string name="accessibility_app_usage_settings" msgid="6312864233673544149">"Настройки использования приложения"</string>
     <string name="recents_clear_all" msgid="5328176793634888831">"Очистить все"</string>
