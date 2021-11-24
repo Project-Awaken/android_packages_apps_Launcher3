@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <icons>
     <icon drawable="@array/grayscale_calendar_icons" package="com.google.android.calendar"/>
+    <icon drawable="@array/grayscale_calendar_icons" package="com.android.calendar"/>
     <icon drawable="@array/grayscale_clock_icons" package="com.google.android.deskclock"/>
     <icon drawable="@drawable/themed_icon_1111dns" package="com.cloudflare.onedotonedotonedotone"/>
     <icon drawable="@drawable/themed_icon_1gallery" package="app.galleryx"/>
@@ -511,6 +512,8 @@
     <icon drawable="@drawable/themed_icon_photomath" package="com.microblink.photomath"/>
     <icon drawable="@drawable/themed_icon_photon_camera" package="com.particlesdevs.photoncamera"/>
     <icon drawable="@drawable/themed_icon_photos" package="com.google.android.apps.photos"/>
+    <icon drawable="@drawable/themed_icon_photos" package="com.android.gallery3d"/>
+    <icon drawable="@drawable/themed_icon_photos" package="com.android.gallery"/>
     <icon drawable="@drawable/themed_icon_phub" package="com.app.pornhub"/>
     <icon drawable="@drawable/themed_icon_physicswallah" package="xyz.penpencil.physicswala"/>
     <icon drawable="@drawable/themed_icon_picpay" package="com.picpay"/>
