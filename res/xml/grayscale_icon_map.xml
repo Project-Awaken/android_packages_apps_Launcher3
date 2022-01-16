@@ -2,6 +2,7 @@
 <icons>
     <icon drawable="@array/grayscale_calendar_icons" package="com.android.calendar" />
     <icon drawable="@array/grayscale_calendar_icons" package="com.google.android.calendar" />
+    <icon drawable="@array/grayscale_clock_icons" package="com.android.deskclock" />
     <icon drawable="@array/grayscale_clock_icons" package="com.google.android.deskclock" />
     <icon drawable="@drawable/themed_icon_99" package="com.app99.driver" />
     <icon drawable="@drawable/themed_icon_99" package="com.taxis99" />
@@ -42,15 +43,16 @@
     <icon drawable="@drawable/themed_icon_bolt" package="ee.mtakso.client" />
     <icon drawable="@drawable/themed_icon_boost" package="com.rubenmayayo.reddit" />
     <icon drawable="@drawable/themed_icon_bradesco" package="com.bradesco" />
-    <icon drawable="@drawable/themed_icon_brave" package="com.brave.browser" />
     <icon drawable="@drawable/themed_icon_brawlstars" package="com.supercell.brawlstars" />
     <icon drawable="@drawable/themed_icon_bromite" package="org.bromite.bromite" />
+    <icon drawable="@drawable/themed_icon_browser" package="org.lineageos.jelly" />
     <icon drawable="@drawable/themed_icon_bstasion" package="com.bstar.intl" />
     <icon drawable="@drawable/themed_icon_busuu" package="com.busuu.android.enc" />
     <icon drawable="@drawable/themed_icon_by_u" package="com.byu.id" />
     <icon drawable="@drawable/themed_icon_c6_bank" package="com.c6bank.app" />
     <icon drawable="@drawable/themed_icon_caixa" package="br.com.gabba.Caixa" />
     <icon drawable="@drawable/themed_icon_calces" package="advanced.scientific.calculator.calc991.plus" />
+    <icon drawable="@drawable/themed_icon_calculator" package="com.android.calculator2" />
     <icon drawable="@drawable/themed_icon_calculator" package="com.google.android.calculator" />
     <icon drawable="@drawable/themed_icon_call_recorder" package="com.github.axet.callrecorder" />
     <icon drawable="@drawable/themed_icon_calm" package="com.calm.android" />
