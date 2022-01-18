@@ -163,6 +163,7 @@
     <icon drawable="@drawable/themed_icon_chess" package="com.chess"/>
     <icon drawable="@drawable/themed_icon_chess_aifactory" package="uk.co.aifactory.chessfree"/>
     <icon drawable="@drawable/themed_icon_chrome" package="com.android.chrome"/>
+    <icon drawable="@drawable/themed_icon_chrome" package="org.lineageos.jelly"/>
     <icon drawable="@drawable/themed_icon_chrome_beta" package="com.chrome.beta"/>
     <icon drawable="@drawable/themed_icon_chrome_canary" package="com.chrome.canary"/>
     <icon drawable="@drawable/themed_icon_chrome_dev" package="com.chrome.dev"/>
