@@ -63,4 +63,9 @@
     <string name="category_icon">ICON</string>
     <string name="category_misc">MISC</string>
 
+    <!-- Hotseat searchbar -->
+    <string name="label_search">Search</string>
+    <string name="label_lens">Google Lens</string>
+    <string name="label_voice_search">Voice search</string>
+
 </resources>
