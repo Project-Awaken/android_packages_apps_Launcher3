@@ -51,8 +51,7 @@
     <string name="suggestion_pref_screen_desc">For All Apps &amp; Home screen suggestions</string>
 
     <!-- Settings Categories -->
-    <string name="category_home">HOME</string>
-    <string name="category_icon">ICON</string>
-    <string name="category_misc">MISC</string>
+    <string name="category_icon">Icons</string>
+    <string name="category_misc">Misc</string>
 
 </resources>
