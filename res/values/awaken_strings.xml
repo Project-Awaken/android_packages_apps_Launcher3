@@ -80,4 +80,9 @@
 
     <!-- App label - max lines -->
     <string name="icon_max_lines_title">Max lines for app label</string>
+
+    <!-- Taskbar -->
+    <string name="pref_allow_phone_taskbar">Use taskbar</string>
+    <string name="pref_allow_phone_taskbar_desc">For opening and switching apps anywhere</string>
+
 </resources>
