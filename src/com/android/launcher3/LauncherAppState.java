@@ -27,7 +27,10 @@ import android.content.Intent;
 import android.content.SharedPreferences;
 import android.content.SharedPreferences.OnSharedPreferenceChangeListener;
 import android.content.pm.LauncherApps;
+import android.database.ContentObserver;
+import android.net.Uri;
 import android.os.UserHandle;
+import android.provider.Settings;
 import android.util.Log;
 
 import androidx.annotation.Nullable;
@@ -65,6 +68,8 @@ public class LauncherAppState implements SafeCloseable {
     private final IconCache mIconCache;
     private final InvariantDeviceProfile mInvariantDeviceProfile;
     private final RunnableList mOnTerminateCallback = new RunnableList();
+
+    private final ContentObserver mSettingsObserver;
 
     public static LauncherAppState getInstance(final Context context) {
         return INSTANCE.get(context);
@@ -144,6 +149,18 @@ public class LauncherAppState implements SafeCloseable {
         mModel = new LauncherModel(context, this, mIconCache, new AppFilter(mContext),
                 iconCacheFileName != null);
         mOnTerminateCallback.add(mIconCache::close);
+        mSettingsObserver = new ContentObserver(null) {
+            @Override
+            public void onChange(boolean selfChange, Uri uri) {
+                final String key = uri.getLastPathSegment();
+                if (key.equals(Settings.Secure.LAUNCHER_HIDDEN_APPS)) {
+                    refreshAndReloadLauncher();
+                }
+            }
+        };
+        mContext.getContentResolver().registerContentObserver(
+            Settings.Secure.getUriFor(Settings.Secure.LAUNCHER_HIDDEN_APPS),
+            false /* notifyForDescendants */, mSettingsObserver);
     }
 
     private void onNotificationSettingsChanged(boolean areNotificationDotsEnabled) {
@@ -165,6 +182,7 @@ public class LauncherAppState implements SafeCloseable {
      */
     @Override
     public void close() {
+        mContext.getContentResolver().unregisterContentObserver(mSettingsObserver);
         mModel.destroy();
         mContext.getSystemService(LauncherApps.class).unregisterCallback(mModel);
         CustomWidgetManager.INSTANCE.get(mContext).setWidgetRefreshCallback(null);
