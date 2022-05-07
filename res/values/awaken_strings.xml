@@ -85,4 +85,7 @@
 
     <!-- Recents -->
     <string name="action_lens">Lens</string>
+
+    <!-- Show top shadow -->
+    <string name="show_top_shadow">Show top shadow</string>
 </resources>
