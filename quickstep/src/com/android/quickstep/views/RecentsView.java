@@ -4148,11 +4148,14 @@ public abstract class RecentsView<ACTIVITY_TYPE extends StatefulActivity<STATE_T
                     && runningTaskIndex != -1
                     && runningTaskIndex != taskIndex
                     && recentsView.getRemoteTargetHandles() != null) {
-                for (RemoteTargetHandle remoteHandle : recentsView.getRemoteTargetHandles()) {
-                    anim.play(ObjectAnimator.ofFloat(
-                            remoteHandle.getTaskViewSimulator().taskPrimaryTranslation,
-                            AnimatedFloat.VALUE,
-                            primaryTranslation));
+                final RemoteTargetHandle[] remoteTargetHandles = recentsView.getRemoteTargetHandles();
+                if (remoteTargetHandles != null) {
+                    for (RemoteTargetHandle remoteHandle : remoteTargetHandles) {
+                        anim.play(ObjectAnimator.ofFloat(
+                                remoteHandle.getTaskViewSimulator().taskPrimaryTranslation,
+                                AnimatedFloat.VALUE,
+                                primaryTranslation));
+                    }
                 }
             }
 
