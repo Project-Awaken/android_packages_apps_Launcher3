@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+/*
+* Copyright (C) 2016 The Android Open Source Project
+*
+* Licensed under the Apache License, Version 2.0 (the "License");
+* you may not use this file except in compliance with the License.
+* You may obtain a copy of the License at
+*
+*      http://www.apache.org/licenses/LICENSE-2.0
+*
+* Unless required by applicable law or agreed to in writing, software
+* distributed under the License is distributed on an "AS IS" BASIS,
+* WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+* See the License for the specific language governing permissions and
+* limitations under the License.
+*/
+-->
+<resources>
+    <!-- Settings title to show Google Now at -1 screen on launcher. [CHAR LIMIT=50] -->
+    <string name="title_show_google_app">滑動顯示 Google 即時資訊</string>
+    <!-- Settings message explaining when the -1 screen is available on an LTR device. [CHAR LIMIT=100] -->
+    <string name="msg_minus_one_on_left">在主畫面上向右滑動來顯示 Google 即時資訊</string>
+    <!-- Settings message explaining when the -1 screen is available on an RTL device. [CHAR LIMIT=100] -->
+    <string name="msg_minus_one_on_right">在主畫面上向左滑動來顯示 Google 即時資訊</string>
+    <!-- Taskbar -->
+    <string name="pref_allow_phone_taskbar">使用工作列</string>
+    <string name="pref_allow_phone_taskbar_desc">隨處都能開啟和切換應用程式</string>
+    <!-- Recent Grid -->
+    <string name="pref_allow_phone_overview_grid">顯示最近應用程序格線</string>
+    <string name="pref_allow_phone_overview_grid_desc">在應用概覽裏顯示更多應用</string>
+    <!-- Folder titles -->
+    <!-- Suggestions -->
+    <string name="suggestion_pref_screen_title">建議</string>
+    <string name="suggestion_pref_screen_desc">For All Apps and Home screen suggestions</string>
+    <!-- Gestures -->
+    <string name="pref_dt_gesture_title">雙擊手勢</string>
+    <string name="pref_dt_gesture_summary">Double tap on empty space for screen-off</string>
+    <!-- Edit workspace -->
+    <string name="settings_lock_layout_title">鎖定佈局</string>
+    <string name="settings_lock_layout_summary_on">圖示和小工具無法在主畫面上被新增、刪除和移動</string>
+    <string name="settings_lock_layout_summary_off">圖示和小工具可以在主畫面上新增、刪除和移動</string>
+    <string name="settings_edit_widgets_error">無法將小工具新增至主畫面</string>
+    <!-- Hide labels -->
+    <string name="desktop_show_labels">Show icon labels on Home screen</string>
+    <string name="drawer_show_labels">在應用程式清單中顯示圖示標籤</string>
+    <!-- Settings Categories -->
+    <string name="category_icon">圖示 &amp; 大小</string>
+    <string name="category_misc">其它</string>
+    <!-- Hotseat searchbar -->
+    <string name="label_search">搜尋</string>
+    <string name="label_lens">智慧鏡頭</string>
+    <string name="label_voice_search">語音搜尋</string>
+    <string name="dock_search_title">Google 搜尋列</string>
+    <string name="dock_search_summary">在底部顯示搜尋列</string>
+    <string name="dock_theme_title">圖示套用主題色</string>
+    <string name="dock_theme_summary">將主題顏色套用於搜尋列</string>
+    <!-- Restart action -->
+    <string name="state_loading">正在套用 \u2026</string>
+    <!-- Icon size -->
+    <string name="icon_size_title">圖示大小</string>
+    <!-- Font size -->
+    <string name="font_size_title">字型大小</string>
+    <!-- App label - max lines -->
+    <string name="icon_max_lines_title">應用程式名稱的最大行數</string>
+    <!-- Recents -->
+    <string name="action_lens">智慧鏡頭</string>
+    <!-- Show top shadow -->
+    <string name="show_top_shadow_title">Top shadow</string>
+    <string name="show_top_shadow_summary">Show shadow on the top of Home screen</string>
+    <!-- Dark Status Bar -->
+    <string name="perf_dark_status_bar_title">Dark status bar</string>
+    <string name="perf_dark_status_bar_summary">Use dark status bar on Home screen</string>
+    <!-- AppInfo -->
+    <!-- Used for preference height loading. -->
+    <!-- Preference default value -->
+</resources>

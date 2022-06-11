@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+/*
+* Copyright (C) 2016 The Android Open Source Project
+*
+* Licensed under the Apache License, Version 2.0 (the "License");
+* you may not use this file except in compliance with the License.
+* You may obtain a copy of the License at
+*
+*      http://www.apache.org/licenses/LICENSE-2.0
+*
+* Unless required by applicable law or agreed to in writing, software
+* distributed under the License is distributed on an "AS IS" BASIS,
+* WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+* See the License for the specific language governing permissions and
+* limitations under the License.
+*/
+-->
+<resources>
+    <!-- Settings title to show Google Now at -1 screen on launcher. [CHAR LIMIT=50] -->
+    <string name="title_show_google_app">Geser untuk mengakses aplikasi Google</string>
+    <!-- Settings message explaining when the -1 screen is available on an LTR device. [CHAR LIMIT=100] -->
+    <string name="msg_minus_one_on_left">Dari layar beranda, geser ke kiri untuk membuka aplikasi Google</string>
+    <!-- Settings message explaining when the -1 screen is available on an RTL device. [CHAR LIMIT=100] -->
+    <string name="msg_minus_one_on_right">Dari layar beranda, geser ke kiri untuk membuka aplikasi Google</string>
+    <!-- Taskbar -->
+    <string name="pref_allow_phone_taskbar">Gunakan bilah tugas</string>
+    <string name="pref_allow_phone_taskbar_desc">Untuk membuka dan beralih aplikasi di mana saja</string>
+    <!-- Recent Grid -->
+    <string name="pref_allow_phone_overview_grid">Tampilkan kisi aplikasi baru-baru ini</string>
+    <string name="pref_allow_phone_overview_grid_desc">Lebih banyak aplikasi baru-baru ini dalam Ikhtisar</string>
+    <!-- Folder titles -->
+    <!-- Suggestions -->
+    <string name="suggestion_pref_screen_title">Saran</string>
+    <string name="suggestion_pref_screen_desc">Untuk semua aplikasi dan saran layar beranda</string>
+    <!-- Gestures -->
+    <string name="pref_dt_gesture_title">Gestur ketuk dua kali</string>
+    <string name="pref_dt_gesture_summary">Ketuk dua kali pada ruang kosong untuk mematikan layar</string>
+    <!-- Edit workspace -->
+    <string name="settings_lock_layout_title">Kunci tata letak</string>
+    <string name="settings_lock_layout_summary_on">Ikon dan widget tidak dapat ditambahkan, dihapus dan dipindahkan pada layar beranda</string>
+    <string name="settings_lock_layout_summary_off">Ikon dan widget dapat ditambahkan, dihapus dan dipindahkan pada layar beranda</string>
+    <string name="settings_edit_widgets_error">Hal ini tidak mungkin untuk menambahkan widget ke layar beranda</string>
+    <!-- Hide labels -->
+    <string name="desktop_show_labels">Tampilkan label ikon pada layar beranda</string>
+    <string name="drawer_show_labels">Tampilkan label ikon di laci aplikasi</string>
+    <!-- Settings Categories -->
+    <string name="category_icon">Ikon &amp; Ukuran</string>
+    <string name="category_misc">Lainnya</string>
+    <!-- Hotseat searchbar -->
+    <string name="label_search">Cari</string>
+    <string name="label_lens">Google Lens</string>
+    <string name="label_voice_search">Pencarian suara</string>
+    <string name="dock_search_title">Bilah pencarian Google</string>
+    <string name="dock_search_summary">Tampilkan bilah pencarian di dok bawah</string>
+    <string name="dock_theme_title">Ikon bertema</string>
+    <string name="dock_theme_summary">Gunakan ikon bertema untuk bilah pencarian</string>
+    <!-- Restart action -->
+    <string name="state_loading">Menerapkan\u2026</string>
+    <!-- Icon size -->
+    <string name="icon_size_title">Ukuran ikon</string>
+    <!-- Font size -->
+    <string name="font_size_title">Ukuran font</string>
+    <!-- App label - max lines -->
+    <string name="icon_max_lines_title">Garis maksimum untuk nama aplikasi</string>
+    <!-- Recents -->
+    <string name="action_lens">Lens</string>
+    <!-- Show top shadow -->
+    <string name="show_top_shadow_title">Bayangan atas</string>
+    <string name="show_top_shadow_summary">Tampilkan bayangan di bagian atas layar beranda</string>
+    <!-- Dark Status Bar -->
+    <string name="perf_dark_status_bar_title">Bilah status gelap</string>
+    <string name="perf_dark_status_bar_summary">Gunakan bilah status gelap di layar beranda</string>
+    <!-- AppInfo -->
+    <!-- Used for preference height loading. -->
+    <!-- Preference default value -->
+</resources>

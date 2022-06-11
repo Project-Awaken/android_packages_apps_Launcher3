@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+/*
+* Copyright (C) 2016 The Android Open Source Project
+*
+* Licensed under the Apache License, Version 2.0 (the "License");
+* you may not use this file except in compliance with the License.
+* You may obtain a copy of the License at
+*
+*      http://www.apache.org/licenses/LICENSE-2.0
+*
+* Unless required by applicable law or agreed to in writing, software
+* distributed under the License is distributed on an "AS IS" BASIS,
+* WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+* See the License for the specific language governing permissions and
+* limitations under the License.
+*/
+-->
+<resources>
+    <!-- Settings title to show Google Now at -1 screen on launcher. [CHAR LIMIT=50] -->
+    <string name="title_show_google_app">ปัดเพื่อเปิดแอปของ Google</string>
+    <!-- Settings message explaining when the -1 screen is available on an LTR device. [CHAR LIMIT=100] -->
+    <string name="msg_minus_one_on_left">ปัดซ้ายจากหน้าหลักเพื่อเปิดแอปของ Google</string>
+    <!-- Settings message explaining when the -1 screen is available on an RTL device. [CHAR LIMIT=100] -->
+    <string name="msg_minus_one_on_right">ปัดขวาจากหน้าหลักเพื่อเปิดแอปของ Google</string>
+    <!-- Taskbar -->
+    <string name="pref_allow_phone_taskbar">ใช้ taskbar</string>
+    <string name="pref_allow_phone_taskbar_desc">เพื่อเปิดและสลับระหว่างแอปได้ทุกที่</string>
+    <!-- Recent Grid -->
+    <string name="pref_allow_phone_overview_grid">แสดงตารางสำหรับแอปที่พึ่งเปิด</string>
+    <string name="pref_allow_phone_overview_grid_desc">แสดงแอปเพิ่มเติมในภาพรวมแอป</string>
+    <!-- Folder titles -->
+    <!-- Suggestions -->
+    <string name="suggestion_pref_screen_title">คำแนะนำ</string>
+    <string name="suggestion_pref_screen_desc">For All Apps and Home screen suggestions</string>
+    <!-- Gestures -->
+    <string name="pref_dt_gesture_title">แตะสองครั้ง</string>
+    <string name="pref_dt_gesture_summary">Double tap on empty space for screen-off</string>
+    <!-- Edit workspace -->
+    <string name="settings_lock_layout_title">ล็อกเลย์เอาท์</string>
+    <string name="settings_lock_layout_summary_on">ไอคอนและวิดเจ็ตไม่สามารถถูก เพิ่ม ลบ และ ย้ายบนหน้าจอหลักได้</string>
+    <string name="settings_lock_layout_summary_off">ไอคอนและวิดเจ็ตสามารถถูก เพิ่ม ลบ และ ย้ายบนหน้าจอหลักได้</string>
+    <string name="settings_edit_widgets_error">ไม่สามารถเพิ่มวิดเจ็ตบนหน้าจอหลักได้</string>
+    <!-- Hide labels -->
+    <string name="desktop_show_labels">Show icon labels on Home screen</string>
+    <string name="drawer_show_labels">แสดงชื่อไอคอนในลิ้นชักแอป</string>
+    <!-- Settings Categories -->
+    <string name="category_icon">ไอคอน &amp; ขนาด</string>
+    <string name="category_misc">อื่นๆ</string>
+    <!-- Hotseat searchbar -->
+    <string name="label_search">ค้นหา</string>
+    <string name="label_lens">Google Lens</string>
+    <string name="label_voice_search">ค้นหาด้วยเสียง</string>
+    <string name="dock_search_title">แถบค้นหาของ Google</string>
+    <string name="dock_search_summary">แสดงแถบค้นหาในแถบไอคอนด้านล่าง</string>
+    <string name="dock_theme_title">ธีมไอคอน</string>
+    <string name="dock_theme_summary">ใช้ธีมไอคอนสำหรับแถบค้นหา</string>
+    <!-- Restart action -->
+    <string name="state_loading">กำลังนำไปใช้\u2026</string>
+    <!-- Icon size -->
+    <string name="icon_size_title">ขนาดไอคอน</string>
+    <!-- Font size -->
+    <string name="font_size_title">ขนาดอักษร</string>
+    <!-- App label - max lines -->
+    <string name="icon_max_lines_title">แถวมากที่สุดสำหรับไอคอนแอป</string>
+    <!-- Recents -->
+    <string name="action_lens">เลนส์</string>
+    <!-- Show top shadow -->
+    <string name="show_top_shadow_title">Top shadow</string>
+    <string name="show_top_shadow_summary">Show shadow on the top of Home screen</string>
+    <!-- Dark Status Bar -->
+    <string name="perf_dark_status_bar_title">Dark status bar</string>
+    <string name="perf_dark_status_bar_summary">Use dark status bar on Home screen</string>
+    <!-- AppInfo -->
+    <!-- Used for preference height loading. -->
+    <!-- Preference default value -->
+</resources>

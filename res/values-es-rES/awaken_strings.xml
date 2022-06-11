@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+/*
+* Copyright (C) 2016 The Android Open Source Project
+*
+* Licensed under the Apache License, Version 2.0 (the "License");
+* you may not use this file except in compliance with the License.
+* You may obtain a copy of the License at
+*
+*      http://www.apache.org/licenses/LICENSE-2.0
+*
+* Unless required by applicable law or agreed to in writing, software
+* distributed under the License is distributed on an "AS IS" BASIS,
+* WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+* See the License for the specific language governing permissions and
+* limitations under the License.
+*/
+-->
+<resources>
+    <!-- Settings title to show Google Now at -1 screen on launcher. [CHAR LIMIT=50] -->
+    <string name="title_show_google_app">Desliza para acceder al Feed de Google</string>
+    <!-- Settings message explaining when the -1 screen is available on an LTR device. [CHAR LIMIT=100] -->
+    <string name="msg_minus_one_on_left">Desde la pantalla de inicio, deslizar hacia la izquierda para abrir la aplicación de Google</string>
+    <!-- Settings message explaining when the -1 screen is available on an RTL device. [CHAR LIMIT=100] -->
+    <string name="msg_minus_one_on_right">Desde la pantalla de inicio, deslizar hacia la derecha para abrir la aplicación de Google</string>
+    <!-- Taskbar -->
+    <string name="pref_allow_phone_taskbar">Usar barra de tareas</string>
+    <string name="pref_allow_phone_taskbar_desc">Para abrir y alternar aplicaciones en cualquier lugar</string>
+    <!-- Recent Grid -->
+    <string name="pref_allow_phone_overview_grid">Mostrar cuadrícula de aplicaciones recientes</string>
+    <string name="pref_allow_phone_overview_grid_desc">Más aplicaciones recientes a la vista</string>
+    <!-- Folder titles -->
+    <!-- Suggestions -->
+    <string name="suggestion_pref_screen_title">Sugerencias</string>
+    <string name="suggestion_pref_screen_desc">For All Apps and Home screen suggestions</string>
+    <!-- Gestures -->
+    <string name="pref_dt_gesture_title">Gesto de doble toque</string>
+    <string name="pref_dt_gesture_summary">Double tap on empty space for screen-off</string>
+    <!-- Edit workspace -->
+    <string name="settings_lock_layout_title">Bloquear disposición</string>
+    <string name="settings_lock_layout_summary_on">No se puede añadir, mover o eliminar iconos y widgets en la pantalla de inicio</string>
+    <string name="settings_lock_layout_summary_off">Se puede añadir, mover o eliminar iconos y widgets en la pantalla de inicio</string>
+    <string name="settings_edit_widgets_error">No es posible añadir widgets en la pantalla de inicio</string>
+    <!-- Hide labels -->
+    <string name="desktop_show_labels">Show icon labels on Home screen</string>
+    <string name="drawer_show_labels">Mostrar etiquetas en los iconos del cajón de aplicaciones</string>
+    <!-- Settings Categories -->
+    <string name="category_icon">Iconos &amp; Tamaños</string>
+    <string name="category_misc">Varios</string>
+    <!-- Hotseat searchbar -->
+    <string name="label_search">Búsqueda</string>
+    <string name="label_lens">Google Lens</string>
+    <string name="label_voice_search">Búsqueda por voz</string>
+    <string name="dock_search_title">Barra de busqueda de Google</string>
+    <string name="dock_search_summary">Mostrar la barra de búsqueda en la parte inferior</string>
+    <string name="dock_theme_title">Iconos tematizados</string>
+    <string name="dock_theme_summary">Usar iconos tematizados en la barra de búsqueda</string>
+    <!-- Restart action -->
+    <string name="state_loading">Aplicando\u2026</string>
+    <!-- Icon size -->
+    <string name="icon_size_title">Tamaño de iconos</string>
+    <!-- Font size -->
+    <string name="font_size_title">Tamaño de fuente</string>
+    <!-- App label - max lines -->
+    <string name="icon_max_lines_title">Líneas máximas para la etiqueta de la aplicación</string>
+    <!-- Recents -->
+    <string name="action_lens">Lens</string>
+    <!-- Show top shadow -->
+    <string name="show_top_shadow_title">Top shadow</string>
+    <string name="show_top_shadow_summary">Show shadow on the top of Home screen</string>
+    <!-- Dark Status Bar -->
+    <string name="perf_dark_status_bar_title">Dark status bar</string>
+    <string name="perf_dark_status_bar_summary">Use dark status bar on Home screen</string>
+    <!-- AppInfo -->
+    <!-- Used for preference height loading. -->
+    <!-- Preference default value -->
+</resources>

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+/*
+* Copyright (C) 2016 The Android Open Source Project
+*
+* Licensed under the Apache License, Version 2.0 (the "License");
+* you may not use this file except in compliance with the License.
+* You may obtain a copy of the License at
+*
+*      http://www.apache.org/licenses/LICENSE-2.0
+*
+* Unless required by applicable law or agreed to in writing, software
+* distributed under the License is distributed on an "AS IS" BASIS,
+* WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+* See the License for the specific language governing permissions and
+* limitations under the License.
+*/
+-->
+<resources>
+    <!-- Settings title to show Google Now at -1 screen on launcher. [CHAR LIMIT=50] -->
+    <string name="title_show_google_app">اسحب للوصول إلى تطبيق جوجل</string>
+    <!-- Settings message explaining when the -1 screen is available on an LTR device. [CHAR LIMIT=100] -->
+    <string name="msg_minus_one_on_left">من الواجهة الرئيسة, اسحب من اليسار لفتح تطبيق جوجل </string>
+    <!-- Settings message explaining when the -1 screen is available on an RTL device. [CHAR LIMIT=100] -->
+    <string name="msg_minus_one_on_right">من الواجهة الرئيسة, اسحب من اليمين لفتح تطبيق جوجل </string>
+    <!-- Taskbar -->
+    <string name="pref_allow_phone_taskbar">استعمل شريط المهام</string>
+    <string name="pref_allow_phone_taskbar_desc">لفتح أو تغير التطبيقات من أي مكان</string>
+    <!-- Recent Grid -->
+    <string name="pref_allow_phone_overview_grid">إظهار قائمة التطبيقات الأخيرة</string>
+    <string name="pref_allow_phone_overview_grid_desc">إظهار المزيد من التطبيقات الأخيرة</string>
+    <!-- Folder titles -->
+    <!-- Suggestions -->
+    <string name="suggestion_pref_screen_title">الإقتراحات</string>
+    <string name="suggestion_pref_screen_desc">اقتراحات الشاشة الرئيسية لجميع التطبيقات</string>
+    <!-- Gestures -->
+    <string name="pref_dt_gesture_title">إيماءة النقر المزدوج</string>
+    <string name="pref_dt_gesture_summary">إطفاء الشاشة بنقر مزدوج على مساحة فارغة من الشاشة</string>
+    <!-- Edit workspace -->
+    <string name="settings_lock_layout_title">تخطيط القفل</string>
+    <string name="settings_lock_layout_summary_on">لا يمكن إضافة الرموز والويدجيت وإزالتها ونقلها على الشاشة الرئيسية</string>
+    <string name="settings_lock_layout_summary_off">يمكن إضافة, حذف و نقل الأيقونات و الويدجت على الشاشة الرئيسية</string>
+    <string name="settings_edit_widgets_error">لا يمكن إضافة الويدجت إلى الشاشة الرئيسية</string>
+    <!-- Hide labels -->
+    <string name="desktop_show_labels">إظهار التسميات في الشاشة الرئيسية</string>
+    <string name="drawer_show_labels">إظهار أسماء التطبيقات في درج التطبيقات</string>
+    <!-- Settings Categories -->
+    <string name="category_icon">الأيقونة &amp; الاسم</string>
+    <string name="category_misc">المزيد</string>
+    <!-- Hotseat searchbar -->
+    <string name="label_search">البحث</string>
+    <string name="label_lens">عدسة Google</string>
+    <string name="label_voice_search">البحث الصوتي</string>
+    <string name="dock_search_title">شريط بحث جوجل</string>
+    <string name="dock_search_summary">إظهار شريط البحث في القائمة السفلية</string>
+    <string name="dock_theme_title">أيقونات مع الثيم</string>
+    <string name="dock_theme_summary">استخدام الثيم الحالي لشريط البحث</string>
+    <!-- Restart action -->
+    <string name="state_loading">تطبيق\u2026</string>
+    <!-- Icon size -->
+    <string name="icon_size_title">حجم الأيقونة</string>
+    <!-- Font size -->
+    <string name="font_size_title">حجم الخط</string>
+    <!-- App label - max lines -->
+    <string name="icon_max_lines_title">الأسطر القصوى لتسمية التطبيق</string>
+    <!-- Recents -->
+    <string name="action_lens">العدسة</string>
+    <!-- Show top shadow -->
+    <string name="show_top_shadow_title">الظل العلوي</string>
+    <string name="show_top_shadow_summary">إظهر ظل في الجزء العلوي من الشاشة الرئيسية</string>
+    <!-- Dark Status Bar -->
+    <string name="perf_dark_status_bar_title">شريط الحالة الأسود</string>
+    <string name="perf_dark_status_bar_summary">استخدم الوضع المظلم في شريط الحاله في الشاشه الرئيسية</string>
+    <!-- AppInfo -->
+    <!-- Used for preference height loading. -->
+    <!-- Preference default value -->
+</resources>
