@@ -32,17 +32,17 @@
     <!-- Folder titles -->
     <!-- Suggestions -->
     <string name="suggestion_pref_screen_title">Sugestões</string>
-    <string name="suggestion_pref_screen_desc">For All Apps and Home screen suggestions</string>
+    <string name="suggestion_pref_screen_desc">Para todos os aplicativos e sugestões da tela inicial</string>
     <!-- Gestures -->
     <string name="pref_dt_gesture_title">Gesto de toque duplo</string>
-    <string name="pref_dt_gesture_summary">Double tap on empty space for screen-off</string>
+    <string name="pref_dt_gesture_summary">Toque duas vezes no espaço vazio para desligar a tela</string>
     <!-- Edit workspace -->
     <string name="settings_lock_layout_title">Layout de bloqueio</string>
     <string name="settings_lock_layout_summary_on">Ícones e widgets não podem ser adicionados, removidos e movidos na tela inicial</string>
     <string name="settings_lock_layout_summary_off">Ícones e widgets podem ser adicionados, removidos e movidos na tela inicial</string>
     <string name="settings_edit_widgets_error">Não é possível adicionar widgets à tela inicial</string>
     <!-- Hide labels -->
-    <string name="desktop_show_labels">Show icon labels on Home screen</string>
+    <string name="desktop_show_labels">Mostrar rótulos de ícone na tela inicial</string>
     <string name="drawer_show_labels">Mostrar rótulos dos ícones na gaveta de aplicativos</string>
     <!-- Settings Categories -->
     <string name="category_icon">Ícone &amp; nome</string>
@@ -66,12 +66,23 @@
     <!-- Recents -->
     <string name="action_lens">Lentes</string>
     <!-- Show top shadow -->
-    <string name="show_top_shadow_title">Top shadow</string>
-    <string name="show_top_shadow_summary">Show shadow on the top of Home screen</string>
+    <string name="show_top_shadow_title">Sombra superior</string>
+    <string name="show_top_shadow_summary">Mostrar sombra na parte superior da tela inicial</string>
     <!-- Dark Status Bar -->
-    <string name="perf_dark_status_bar_title">Dark status bar</string>
-    <string name="perf_dark_status_bar_summary">Use dark status bar on Home screen</string>
+    <string name="perf_dark_status_bar_title">Barra de status escura</string>
+    <string name="perf_dark_status_bar_summary">Use a barra de status escura na tela inicial</string>
     <!-- AppInfo -->
+    <string name="app_info_subtext">Swipe down to close app info.</string>
+    <string name="app_info_version_value">%1$s (%2$d)</string>
+    <string name="placeholder_string">Loading...</string>
     <!-- Used for preference height loading. -->
+    <string name="app_info_icon_pack">Icon pack</string>
+    <string name="app_info_icon_pack_none">None</string>
+    <string name="app_info_source">Source</string>
+    <string name="app_info_source_system">Sistema</string>
+    <string name="app_info_last_update">Last update</string>
+    <string name="app_info_version">Version</string>
+    <string name="app_info_more">More</string>
     <!-- Preference default value -->
+    <string name="pref_value_default">Padrão</string>
 </resources>

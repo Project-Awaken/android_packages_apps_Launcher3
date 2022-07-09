@@ -32,17 +32,17 @@
     <!-- Folder titles -->
     <!-- Suggestions -->
     <string name="suggestion_pref_screen_title">Sugestie</string>
-    <string name="suggestion_pref_screen_desc">For All Apps and Home screen suggestions</string>
+    <string name="suggestion_pref_screen_desc">Sugestie dla wszystkich aplikacji oraz ekranu głównego</string>
     <!-- Gestures -->
     <string name="pref_dt_gesture_title">Gest dwukrotnego stuknięcia</string>
-    <string name="pref_dt_gesture_summary">Double tap on empty space for screen-off</string>
+    <string name="pref_dt_gesture_summary">Stuknij dwukrotnie w puste miejsce, aby uśpić urządzenie</string>
     <!-- Edit workspace -->
     <string name="settings_lock_layout_title">Blokada układu ekranu głównego</string>
     <string name="settings_lock_layout_summary_on">Ikony i widżety nie mogą być dodawane, usuwane ani przenoszone na ekranie głównym</string>
     <string name="settings_lock_layout_summary_off">Ikony i widżety można dodawać, usuwać i przenosić na ekranie głównym</string>
     <string name="settings_edit_widgets_error">Nie można dodać widżetów do ekranu głównego</string>
     <!-- Hide labels -->
-    <string name="desktop_show_labels">Show icon labels on Home screen</string>
+    <string name="desktop_show_labels">Pokaż etykiety ikon na ekranie głównym</string>
     <string name="drawer_show_labels">Pokaż etykiety aplikacji na liście aplikacji</string>
     <!-- Settings Categories -->
     <string name="category_icon">Ikony &amp; Rozmiary</string>
@@ -66,12 +66,23 @@
     <!-- Recents -->
     <string name="action_lens">Obiektyw</string>
     <!-- Show top shadow -->
-    <string name="show_top_shadow_title">Top shadow</string>
-    <string name="show_top_shadow_summary">Show shadow on the top of Home screen</string>
+    <string name="show_top_shadow_title">Górny cień</string>
+    <string name="show_top_shadow_summary">Pokaż cień w górnej części ekranu</string>
     <!-- Dark Status Bar -->
-    <string name="perf_dark_status_bar_title">Dark status bar</string>
-    <string name="perf_dark_status_bar_summary">Use dark status bar on Home screen</string>
+    <string name="perf_dark_status_bar_title">Ciemny pasek stanu</string>
+    <string name="perf_dark_status_bar_summary">Używaj ciemnego paska stanu na ekranie głównym</string>
     <!-- AppInfo -->
+    <string name="app_info_subtext">Swipe down to close app info.</string>
+    <string name="app_info_version_value">%1$s (%2$d)</string>
+    <string name="placeholder_string">Loading...</string>
     <!-- Used for preference height loading. -->
+    <string name="app_info_icon_pack">Icon pack</string>
+    <string name="app_info_icon_pack_none">None</string>
+    <string name="app_info_source">Source</string>
+    <string name="app_info_source_system">System</string>
+    <string name="app_info_last_update">Last update</string>
+    <string name="app_info_version">Version</string>
+    <string name="app_info_more">More</string>
     <!-- Preference default value -->
+    <string name="pref_value_default">Domyślne</string>
 </resources>
