@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+/*
+* Copyright (C) 2020-2022 The AwakenOS Project
+*
+* Licensed under the Apache License, Version 2.0 (the "License");
+* you may not use this file except in compliance with the License.
+* You may obtain a copy of the License at
+*
+*      http://www.apache.org/licenses/LICENSE-2.0
+*
+* Unless required by applicable law or agreed to in writing, software
+* distributed under the License is distributed on an "AS IS" BASIS,
+* WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+* See the License for the specific language governing permissions and
+* limitations under the License.
+*/
+-->
+<resources>
+    <!-- Folder titles -->
+    <!-- Edit workspace -->
+    <string name="settings_lock_layout_title">تخطيط القفل</string>
+    <string name="settings_lock_layout_summary_on">لا يمكن إضافة الرموز والويدجيت وإزالتها ونقلها على الشاشة الرئيسية</string>
+    <string name="settings_lock_layout_summary_off">يمكن إضافة, حذف و نقل الأيقونات و الويدجت على الشاشة الرئيسية</string>
+    <string name="settings_edit_widgets_error">لا يمكن إضافة الويدجت إلى الشاشة الرئيسية</string>
+    <!-- Hide labels -->
+    <string name="desktop_show_labels">إظهار أسماء الأيقونات على الشاشة الرئيسية</string>
+    <string name="drawer_show_labels">إظهار أسماء التطبيقات في درج التطبيقات</string>
+    <!-- Settings title to show Google Now at -1 screen on launcher. [CHAR LIMIT=50] -->
+    <string name="title_show_google_feed">اسحب للوصول إلى تطبيق جوجل</string>
+    <!-- Settings message explaining when the -1 screen is available on an LTR device. [CHAR LIMIT=100] -->
+    <string name="msg_minus_one_on_left">من الواجهة الرئيسة, اسحب من اليسار لفتح تطبيق جوجل</string>
+    <!-- Settings message explaining when the -1 screen is available on an RTL device. [CHAR LIMIT=100] -->
+    <string name="msg_minus_one_on_right">من الواجهة الرئيسة, اسحب من اليمين لفتح تطبيق جوجل</string>
+    <!-- Gestures -->
+    <string name="pref_dt_gesture_title">ضغطتين لقفل الجهاز</string>
+    <string name="pref_dt_gesture_summary">إطفاء الشاشة بنقر مزدوج على مساحة فارغة من الشاشة</string>
+    <!-- Suggestions -->
+    <string name="suggestion_pref_screen_title">الإقتراحات</string>
+    <string name="suggestion_pref_screen_desc">اقتراحات الشاشة الرئيسية &amp; لجميع التطبيقات</string>
+    <!-- Settings Categories -->
+    <string name="category_icon">الأيقونة &amp; الاسم</string>
+    <string name="category_misc">المزيد</string>
+    <string name="category_google">جوجل</string>
+    <!-- Recents -->
+    <string name="action_lens">العدسة</string>
+    <!-- Hotseat searchbar -->
+    <string name="label_search">البحث</string>
+    <string name="label_lens">عدسة Google</string>
+    <string name="label_voice_search">البحث الصوتي</string>
+    <string name="dock_search_title">شريط بحث جوجل</string>
+    <string name="dock_search_summary">إظهار شريط البحث في القائمة السفلية</string>
+    <!-- Smartspace -->
+    <string name="smartspace_pref_title">في لمحة</string>
+    <string name="smartspace_pref_summary">إظهر التاريخ في الجزء العلوي من الشاشة الرئيسية</string>
+    <!-- Show top shadow -->
+    <string name="show_top_shadow">الظل العلوي</string>
+    <!-- Icon size -->
+    <string name="icon_size_title">حجم الأيقونة</string>
+    <!-- Font size -->
+    <string name="font_size_title">حجم الخط</string>
+    <!-- App label - max lines -->
+    <string name="icon_max_lines_title">الأسطر القصوى لتسمية التطبيق</string>
+    <!-- Taskbar -->
+    <string name="pref_allow_phone_taskbar">استعمل شريط المهام</string>
+    <string name="pref_allow_phone_taskbar_desc">لفتح أو تغير التطبيقات من أي مكان</string>
+    <!-- Pause apps shortcut -->
+    <string name="pause">الإيقاف المؤقت</string>
+    <string name="pause_apps_dialog_title">الإيقاف المؤقت%1$s؟</string>
+    <string name="pause_apps_dialog_message">الاشعارات للتطبيق%1$s سيتم ايقافها مؤقتا</string>
+    <string name="paused_apps_dialog_title">تمّ إيقاف التّطبيق مؤقتا</string>
+    <string name="paused_apps_dialog_message">%1$s تم ايقافه من المشغل</string>
+    <string name="paused_apps_drop_target_label">الإيقاف المؤقت للتطبيق</string>
+    <!-- Dark Status Bar -->
+    <string name="perf_dark_status_bar_title">شريط الحالة الأسود</string>
+    <string name="perf_dark_status_bar_summary">استخدم الوضع المظلم في شريط الحاله في الشاشه الرئيسية</string>
+    <!-- AppInfo -->
+    <string name="app_info_source">المصدر</string>
+    <string name="app_info_source_system">النظام</string>
+    <string name="app_info_last_update">اخر تحديث</string>
+    <string name="app_info_version">الإصدار</string>
+    <string name="app_info_more">المزيد</string>
+    <!-- Preference default value -->
+    <string name="pref_value_default">الافتراضي</string>
+    <!-- Icon pack -->
+    <string name="icon_pack_title">حزم الإيقونات</string>
+    <string name="icon_pack_default_label">الافتراضي</string>
+    <string name="icon_pack_add">تثبيت المزيد</string>
+    <string name="icon_pack_no_market">غير متاح على المتجر</string>
+</resources>

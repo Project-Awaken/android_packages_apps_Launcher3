@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+/*
+* Copyright (C) 2020-2022 The AwakenOS Project
+*
+* Licensed under the Apache License, Version 2.0 (the "License");
+* you may not use this file except in compliance with the License.
+* You may obtain a copy of the License at
+*
+*      http://www.apache.org/licenses/LICENSE-2.0
+*
+* Unless required by applicable law or agreed to in writing, software
+* distributed under the License is distributed on an "AS IS" BASIS,
+* WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+* See the License for the specific language governing permissions and
+* limitations under the License.
+*/
+-->
+<resources>
+    <!-- Folder titles -->
+    <!-- Edit workspace -->
+    <string name="settings_lock_layout_title">Blokada układu ekranu głównego</string>
+    <string name="settings_lock_layout_summary_on">Ikony i widżety nie mogą być dodawane, usuwane ani przenoszone na ekranie głównym</string>
+    <string name="settings_lock_layout_summary_off">Ikony i widżety można dodawać, usuwać i przenosić na ekranie głównym</string>
+    <string name="settings_edit_widgets_error">Nie można dodać widżetów do ekranu głównego</string>
+    <!-- Hide labels -->
+    <string name="desktop_show_labels">Pokaż etykiety aplikacji na ekranie głównym</string>
+    <string name="drawer_show_labels">Pokaż etykiety aplikacji na liście aplikacji</string>
+    <!-- Settings title to show Google Now at -1 screen on launcher. [CHAR LIMIT=50] -->
+    <string name="title_show_google_feed">Przesuń, aby uzyskać dostęp do aplikacji Google</string>
+    <!-- Settings message explaining when the -1 screen is available on an LTR device. [CHAR LIMIT=100] -->
+    <string name="msg_minus_one_on_left">Na ekranie głównym, przesuń w lewo, aby otworzyć aplikację Google</string>
+    <!-- Settings message explaining when the -1 screen is available on an RTL device. [CHAR LIMIT=100] -->
+    <string name="msg_minus_one_on_right">Na ekranie głównym, przesuń w prawo, aby otworzyć aplikację Google</string>
+    <!-- Gestures -->
+    <string name="pref_dt_gesture_title">Dwuktrotne stuknięcie, aby uśpić urządzenie</string>
+    <string name="pref_dt_gesture_summary">Dotknij dwukrotnie w puste miejsce, aby wyłączyć ekran</string>
+    <!-- Suggestions -->
+    <string name="suggestion_pref_screen_title">Sugestie</string>
+    <string name="suggestion_pref_screen_desc">Dla wszystkich aplikacji &amp; sugestie ekranu głównego</string>
+    <!-- Settings Categories -->
+    <string name="category_icon">Ikony &amp; Rozmiary</string>
+    <string name="category_misc">Różne</string>
+    <string name="category_google">Google</string>
+    <!-- Recents -->
+    <string name="action_lens">Obiektyw</string>
+    <!-- Hotseat searchbar -->
+    <string name="label_search">Szukaj</string>
+    <string name="label_lens">Obiektyw Google</string>
+    <string name="label_voice_search">Wyszukiwanie głosowe</string>
+    <string name="dock_search_title">Pasek wyszukiwania Google</string>
+    <string name="dock_search_summary">Pokaż pasek wyszukiwania na dole</string>
+    <!-- Smartspace -->
+    <string name="smartspace_pref_title">W skrócie</string>
+    <string name="smartspace_pref_summary">Pokaż inteligentną przestrzeń w górnej części ekranu</string>
+    <!-- Show top shadow -->
+    <string name="show_top_shadow">Pokaż górny cień</string>
+    <!-- Icon size -->
+    <string name="icon_size_title">Rozmiar ikon</string>
+    <!-- Font size -->
+    <string name="font_size_title">Rozmiar czcionki</string>
+    <!-- App label - max lines -->
+    <string name="icon_max_lines_title">Maksymalna ilość linii dla etykiety aplikacji</string>
+    <!-- Taskbar -->
+    <string name="pref_allow_phone_taskbar">Użyj paska zadań</string>
+    <string name="pref_allow_phone_taskbar_desc">Otwieranie i przełączanie aplikacji w dowolnym miejscu</string>
+    <!-- Pause apps shortcut -->
+    <string name="pause">Wstrzymaj</string>
+    <string name="pause_apps_dialog_title">Wstrzymać %1$s?</string>
+    <string name="pause_apps_dialog_message">Powiadomienia dla aplikacji %1$s będą wstrzymane</string>
+    <string name="paused_apps_dialog_title">Aplikacja wstrzymana</string>
+    <string name="paused_apps_dialog_message">Aplikacja %1$s została wstrzymana z ekranu głównego</string>
+    <string name="paused_apps_drop_target_label">Wstrzymaj aplikację</string>
+    <!-- Dark Status Bar -->
+    <string name="perf_dark_status_bar_title">Ciemny pasek stanu</string>
+    <string name="perf_dark_status_bar_summary">Używaj ciemnego paska stanu na ekranie głównym</string>
+    <!-- AppInfo -->
+    <string name="app_info_source">Źródło</string>
+    <string name="app_info_source_system">System</string>
+    <string name="app_info_last_update">Ostatnia aktualizacja</string>
+    <string name="app_info_version">Wersja</string>
+    <string name="app_info_more">Więcej</string>
+    <!-- Preference default value -->
+    <string name="pref_value_default">Domyślne</string>
+    <!-- Icon pack -->
+    <string name="icon_pack_title">Pakiet ikon</string>
+    <string name="icon_pack_default_label">Domyślny</string>
+    <string name="icon_pack_add">Zainstaluj więcej</string>
+    <string name="icon_pack_no_market">Brak dostępnego sklepu aplikacji</string>
+</resources>
